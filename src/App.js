@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Regisztracio from './Regisztracio';
+import Kodbekuldes from './Kódbeküldés';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App container'>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Kodbekuldes />}/>
+          <Route path='/regisztracio/:email' element={<Regisztracio />}/>
+        </Routes>
+      </BrowserRouter>
+        <div className="drops">
+          <div className='drop drop-1'/>
+          <div className='drop drop-2'/>
+          <div className='drop drop-3'/>
+          <div className='drop drop-4'/>
+          <div className='drop drop-5'/>
+        </div>
     </div>
   );
 }
