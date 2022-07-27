@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Frontend-probafeladat/static/css/main.377bf8ab.css",
+    "main.js": "/Frontend-probafeladat/static/js/main.e75929e4.js",
+    "static/js/787.99f7dcfd.chunk.js": "/Frontend-probafeladat/static/js/787.99f7dcfd.chunk.js",
+    "index.html": "/Frontend-probafeladat/index.html",
+    "main.377bf8ab.css.map": "/Frontend-probafeladat/static/css/main.377bf8ab.css.map",
+    "main.e75929e4.js.map": "/Frontend-probafeladat/static/js/main.e75929e4.js.map",
+    "787.99f7dcfd.chunk.js.map": "/Frontend-probafeladat/static/js/787.99f7dcfd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.377bf8ab.css",
+    "static/js/main.e75929e4.js"
+  ]
+}
