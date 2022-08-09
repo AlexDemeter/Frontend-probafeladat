@@ -8,8 +8,8 @@ function App() {
     <div className='App container'>
       <BrowserRouter>
         <Routes>
-          <Route path='/alexdemeter.github.io/Frontend-probafeladat/' element={<Kodbekuldes />}/>
-          <Route path='/alexdemeter.github.io/Frontend-probafeladat/register/:email' element={<Regisztracio />}/>
+          <Route path='/AlexDemeter.github.io/Frontend-probafeladat/' element={<Kodbekuldes />}/>
+          <Route path='/AlexDemeter.github.io/Frontend-probafeladat/register/:email' element={<Regisztracio />}/>
         </Routes>
       </BrowserRouter>
         <div className="drops">
