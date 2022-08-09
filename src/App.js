@@ -1,6 +1,6 @@
 import './App.css';
-import Regisztracio from './Regisztracio';
-import Kodbekuldes from './Kódbeküldés';
+import Regisztracio from './register';
+import Kodbekuldes from './codeupload';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Kodbekuldes />}/>
-          <Route path='/regisztracio/:email' element={<Regisztracio />}/>
+          <Route path='/register/:email' element={<Regisztracio />}/>
         </Routes>
       </BrowserRouter>
         <div className="drops">
