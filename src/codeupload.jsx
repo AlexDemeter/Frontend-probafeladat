@@ -61,7 +61,7 @@ const Codeupload = () => {
                 }
                 
             } else {
-                navigate(`/Frontend-probafeladat/register/${email}`);
+                navigate(`/register/${email}`);
             }
           } catch (err) {
             console.log(err);

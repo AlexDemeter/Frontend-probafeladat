@@ -6,10 +6,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className='App container'>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path='/Frontend-probafeladat' element={<Kodbekuldes />}/>
-          <Route path='/Frontend-probafeladat/register/:email' element={<Regisztracio />}/>
+          <Route path='/' element={<Kodbekuldes />}/>
+          <Route path='/register/:email' element={<Regisztracio />}/>
         </Routes>
       </BrowserRouter>
         <div className="drops">
