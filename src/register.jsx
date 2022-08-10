@@ -21,7 +21,7 @@ const Register = () =>{
           });
           if (res.status === 200) {
             setMessage("Successful registration!");
-            navigate("/")
+            navigate("/Frontend-probafeladat")
           } else {
             setMessage("Error during registration!");
           }
